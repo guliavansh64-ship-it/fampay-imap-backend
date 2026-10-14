@@ -1,0 +1,30 @@
+{
+  "name": "fampay-imap-backend",
+  "version": "1.0.0",
+  "description": "FatafatPay FamPay Gmail IMAP Integration Service for Vercel and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "fampay",
+    "fatafatpay",
+    "imap",
+    "gmail",
+    "payment-gateway"
+  ],
+  "author": "FatafatPay",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "imapflow": "^2.4.0",
+    "mailparser": "^3.9.38"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
